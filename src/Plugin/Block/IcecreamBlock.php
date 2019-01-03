@@ -19,9 +19,14 @@ class IcecreamBlock extends BlockBase {
    * {@inheritdoc}
    */
   public function build() {
-    return array(
-      '#theme' => 'icecream',
-    );
+    return [
+      '#theme' => 'icecream_theme',
+      '#attached' => array(
+        'library' => array(
+          'icecream/icecream_library',
+        ),
+      ),
+    ];
   }
 
 }

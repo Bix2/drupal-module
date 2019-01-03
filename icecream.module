@@ -2,9 +2,9 @@
 
 function hook_icecream_theme($existing, $type, $theme, $path) {
     return [
-      'icecream' => [
+      'icecream_theme' => [
         'variables' => [
-            
+
         ],
       ],
     ];
