@@ -1,0 +1,6 @@
+admin_icecream_form:
+  path: '/admin/config/user-interface/icecream/settings'
+  defaults:
+    _form: '\Drupal\icecream\Form\adminForm'
+  requirements:
+    _permission: 'access administration page'
