@@ -1,5 +1,0 @@
-type: module
-name: icecream
-description: Creates a custom block showing a form and an adminpage to manage this form.
-package: Icecream
-core: 8.x
