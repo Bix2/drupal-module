@@ -1,0 +1,9 @@
+icecream_library:
+  version: 1.x
+  css:
+    theme:
+      assets/css/icecream-theme.css: {}
+  js:
+    assets/js/icecream.js: {}
+  dependencies:
+    - core/jquery
