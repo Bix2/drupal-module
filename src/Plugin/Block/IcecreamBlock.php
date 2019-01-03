@@ -20,7 +20,7 @@ class IcecreamBlock extends BlockBase {
    */
   public function build() {
     return array(
-      '#markup' => $this->t('Hello, World!'),
+      '#theme' => 'icecream',
     );
   }
 
