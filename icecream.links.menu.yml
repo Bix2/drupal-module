@@ -1,0 +1,8 @@
+admin_icecream_form:
+  title: 'Settings for orders '
+  description: 'Manage settings for ordering form'
+  parent: system.admin_config_ui
+  route_name: admin_icecream_form
+  weight: 100
+  #If menu_name is omitted, the "Tools" menu will be used.
+  menu_name: admin 
