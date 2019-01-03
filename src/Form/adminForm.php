@@ -33,6 +33,7 @@ class adminForm extends FormBase {
     }
 
     public function submitForm(array &$form, FormStateInterface $form_state) {
-        
+        \Drupal::state()->set('min_order_waffle', $form['min_order_waffle']['#value']);
+        \Drupal::state()->set('min_order_icecream', $form['min_order_icecream']['#value']);
     }
 }
